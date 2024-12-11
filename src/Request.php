@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Tdx\Http;
+namespace Sztdx\Http;
 
 use Hyperf\HttpServer\Request as HyRequest;
-use Tdx\Http\Contract\RequestInterface;
+use Sztdx\Http\Contract\RequestInterface;
 
 class Request extends HyRequest implements RequestInterface
 {

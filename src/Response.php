@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Tdx\Http;
+namespace Sztdx\Http;
 
-use Tdx\Http\Contract\ResponseInterface;
+use Sztdx\Http\Contract\ResponseInterface;
 
 use Hyperf\HttpServer\Response as HyResponse;
 

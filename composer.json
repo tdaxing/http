@@ -1,5 +1,5 @@
 {
-    "name": "tdx/http",
+    "name": "sztdx/http",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -9,7 +9,7 @@
     "description": "",
     "autoload": {
         "psr-4": {
-            "Tdx\\Http\\": "src/"
+            "Sztdx\\Http\\": "src/"
         }
     },
     "autoload-dev": {
@@ -44,7 +44,7 @@
     },
     "extra": {
         "hyperf": {
-            "config": "Tdx\\Http\\ConfigProvider"
+            "config": "Sztdx\\Http\\ConfigProvider"
         }
     }
 }
